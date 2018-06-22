@@ -11,6 +11,10 @@
   text-decoration: none;
 }
 
+.container p{
+  color: #3f525b;
+}
+
 @media screen and (max-width: 1080px) {
   /* body {
     font-size:18px !important;
