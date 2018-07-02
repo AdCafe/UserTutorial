@@ -1,6 +1,12 @@
 function openNav() {
+  var width = screen.width;
+  if(width<1080){
+    document.getElementById("mySidenav").style.width = "45%";
+    document.getElementById("main").style.marginLeft = "16%";
+  }else {
     document.getElementById("mySidenav").style.width = "35%";
     document.getElementById("main").style.marginLeft = "16%";
+  }
 }
 
 /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
